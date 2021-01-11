@@ -1,0 +1,30 @@
+/* pagrindinis
+ turinys tui buti centruotas
+  horizontaliai */
+ /* pagrindinis
+ turinys tui buti centruotas
+  vertikaliai */
+
+
+
+ main{
+    display: inline-block;
+    margin-left: calc(( 100% - 800px) / 2);
+    margin-top: 100px;
+    width: 800px;
+    background-color: red;
+ }
+
+ div:nth-of-type(1){
+    display: inline-block;
+    width:40%;
+    float: left;
+    background-color: yellow;
+ }
+
+ div:nth-of-type(2){
+    display: inline-block;
+    width: 60%;
+    float: left;
+    background-color: blue;
+ }
