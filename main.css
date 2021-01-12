@@ -17,6 +17,7 @@ body{
     float: left;
     padding: 40px;
     background-color: #116CC4;
+    color: #fff;
  }
 
 .main-title  {
@@ -25,6 +26,7 @@ body{
 
  }
 
+
 .bottom-link{
      display: inline-block;
      width: 100%;
@@ -32,7 +34,9 @@ body{
  }
 
 .bottom-link > .link{
-    display: inline-block
+    display: inline-block;
+    color: #ffffff;
+    
  }
 
 .symbol{
@@ -49,7 +53,6 @@ body{
 
 .close{
     display: inline-block;
-    background-color: red;
  }
 
 .form{
@@ -68,22 +71,53 @@ body{
 label{
     display: inline-block;
     width: 100%;
+    text-transform: uppercase;
+    color: #999;
+    font-size: 14px;
 
  }
 input{
     display: inline-block;
     width: 100%;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    border-width: 2px;
 
  }
 .btn{
-
+    display: inline-block;
+    background-color: #005DDA;
+    color: #fff;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 18px;
+    line-height: 20px;
+    border-radius: 20px;
+    border: none;
+    text-transform: capitalize;
+    cursor: pointer;
 
  }
+ .btn:hover{
+     background-color: #3384ee;
+ }
 .text{
-
+    display: inline-block;
+    padding: 10px;
+    margin-left: 10px;
+    line-height: 20px;
+    font-size: 18px;
 
  }
 .form-row > .link{
+    display: inline-block;
+    padding: 10px;
+    line-height: 20px;
+    font-size: 18px;
+    color: #005DDA;
+    text-decoration: none;
 
 
  }
